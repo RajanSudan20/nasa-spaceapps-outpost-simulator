@@ -18,3 +18,7 @@ func _on_next_sol_button_pressed():
 	event_popup.dialog_text = event["description"]
 	event_popup.popup_centered()
 	
+
+
+func _on_button_pressed() -> void:
+	pass # Replace with function body.
