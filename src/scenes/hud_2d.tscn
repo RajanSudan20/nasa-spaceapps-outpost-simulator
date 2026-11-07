@@ -1,7 +1,13 @@
 [gd_scene format=3 uid="uid://bgsqs2mo7v51d"]
 
+[ext_resource type="Script" uid="uid://cj7vxrwvobwys" path="res://src/scenes/hud_2d.gd" id="1_tyas7"]
+
 [node name="HUD" type="Control" unique_id=1060910144]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_tyas7")
+
+[node name="EventPopup" type="AcceptDialog" parent="." unique_id=845530261]
+oversampling_override = 1.0
