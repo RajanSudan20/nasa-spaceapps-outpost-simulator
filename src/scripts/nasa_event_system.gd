@@ -21,7 +21,15 @@ var osdr_events = [
 
 func trigger_random_event():
 	var roll = randf()
+	var selected_event
+	
 	if roll > 0.5:
-		return donki_events.pick_random()
+		selected_event = donki_events.pick_random()
 	else:
-		return osdr_events.pick_random()
+		selected_event = osdr_events.pick_random()
+		
+	print("Event Triggered: ", selected_event["title"])
+	print("Description: ", selected_event["description"])
+	
+	return selected_event
+	

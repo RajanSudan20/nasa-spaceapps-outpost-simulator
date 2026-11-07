@@ -1,1 +1,7 @@
+[gd_scene format=3 uid="uid://bgsqs2mo7v51d"]
 
+[node name="HUD" type="Control" unique_id=1060910144]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
